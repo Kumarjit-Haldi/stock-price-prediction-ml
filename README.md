@@ -28,15 +28,17 @@ Previous 60 days of AAPL closing prices.
 
 Predicted next-day closing price.
 
-## Model Evaluation
+## Model Evaluation Results
 
-The model is evaluated using:
+The Linear Regression model was evaluated on the test dataset using MAE, RMSE, and MAPE.
 
 - MAE: 2.56
 - RMSE: 3.66
 - MAPE: 1.20%
 
-These values represent the model's prediction error on the test dataset.
+### Actual vs Predicted Stock Price
+
+![Actual vs Predicted Stock Price](model_results.png)
 
 ## Project Workflow
 
